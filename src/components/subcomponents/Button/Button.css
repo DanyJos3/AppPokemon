@@ -1,0 +1,32 @@
+:root {
+  --bg-color: var(--color-purple);
+}
+
+.btn {
+  /*font-weight: bold;*/
+  cursor: pointer;
+  margin: 1rem;
+  display: flex;
+  border-radius: var(--rounded-md);
+  align-items: center;
+  background-color: var(--bg-color);
+  color: var(--color-white);
+  border: none;
+  padding: 0.7rem 0.8rem;
+  font-size: 1rem;
+}
+
+.btn:hover{
+  background-color: #000000;
+}
+
+
+.btn:disabled{
+  background-color: var(--color-purple-disabled);
+  color: #ffffff73;
+}
+
+.btn svg{
+  font-size: 1.5rem;
+  margin-right: 1rem;
+}

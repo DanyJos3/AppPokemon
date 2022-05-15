@@ -1,0 +1,12 @@
+.container-input {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.container-input input {
+  border: 1px solid var(--color-gray);
+  border-radius: var(--rounded-md);
+  padding: 0.7rem;
+  margin: 1rem 0.5rem;
+}

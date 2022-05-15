@@ -1,0 +1,29 @@
+.searchInput {
+  padding: 1rem;
+  border: 1px solid var(--color-gray);
+  padding-left: 3rem;
+  border-radius: var(--rounded-md);
+  width: 40rem;
+}
+
+.input-container {
+  position: relative;
+}
+
+.input-icon {
+  position: absolute;
+  top: 1rem;
+  left: 15px;
+}
+
+.searchInput::placeholder {
+  color: var(--color-gray);
+}
+
+@media screen and (max-width: 768px) {
+  .searchInput {
+    width: 15rem;
+  }
+}
+
+
